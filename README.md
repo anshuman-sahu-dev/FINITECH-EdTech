@@ -1,96 +1,220 @@
-# FINITECH - EdTech
+# 🎓 FINITECH Institute — Ed-Tech Landing Page
 
-**FINITECH - EdTech** is a modern and responsive educational website designed to showcase courses, training batches, and placement opportunities for students.
-The platform focuses on providing a clean user interface, structured information about programs, and easy ways for students to connect with the institute.
+> *Launch Your IT Career with India's #1 Training Institute*
 
-This project demonstrates front-end development skills using **HTML, CSS, and Bootstrap**, along with modern deployment practices.
-
----
-
-## 🚀 Features
-
-The website includes several key sections designed to improve user experience and accessibility:
-
-* **Home** – Attractive landing page introducing the platform
-* **Courses** – Overview of available learning programs
-* **Batches** – Information about ongoing and upcoming batches
-* **Placements** – Highlights of student placement opportunities and success
-* **About Us** – Details about the institute and its mission
-* **Branches** – Information about different institute locations
-* **Chat on WhatsApp** – Quick communication with the institute
-* **Call Us** – Direct contact option for inquiries
-* **Footer Section** – Additional navigation links and information
+![FINITECH Banner](Media/SVG/FINITECH%20LOGO.svg)
 
 ---
 
-## 🛠 Technologies Used
+## 📌 Table of Contents
 
-This project is built using the following technologies:
+- [About the Project](#about-the-project)
+- [Live Demo](#live-demo)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Pages & Sections](#pages--sections)
+- [Courses Offered](#courses-offered)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Learning Outcomes](#learning-outcomes)
+- [Developer](#developer)
 
-* **HTML5** – Structure of the website
-* **CSS3** – Styling and layout customization
-* **Bootstrap** – Responsive design and UI components
-* **GitHub** – Version control and project hosting
-* **Vercel** – Deployment and live hosting
+---
+
+## 📖 About the Project
+
+**FINITECH Institute** is a fully responsive Ed-Tech landing page built using **HTML, CSS, and Bootstrap**. It replicates a professional software training institute's website — complete with course listings, batch schedules, student testimonials, placement partners, and lead capture forms.
+
+The project is designed to simulate a real-world ed-tech product interface, focusing on clean UI, responsive layouts, and user-friendly navigation — all without any JavaScript framework.
+
+---
+
+## 🌐 Live Demo
+
+🔗 **[https://finitech-ed-tech.vercel.app/](https://finitech-ed-tech.vercel.app/)**
+
+---
+
+## ✨ Features
+
+- 📣 **Announcement Banner** — Scrolling promo bar with limited-time 40% OFF offer
+- 🧭 **Sticky Navbar** — Logo, navigation links, and Enroll Now CTA
+- 🦸 **Hero Section** — Headline, subtext, dual CTA buttons, and a free counselling lead form
+- 📊 **Stats Bar** — 4M+ Learners, 250+ Courses, 25+ Branches, 100% Placement
+- 📚 **Course Listings** — Filterable course cards with tags (🔥 HOT, 📈 Trending, ✨ NEW)
+- 🏆 **Why FINITECH Section** — 8 USP cards covering trainers, placement, projects, and more
+- 🗓️ **Upcoming Batches** — Live batch schedule with dates, timings, mode, and seats left
+- 💬 **Student Testimonials** — Reviews with student photo, designation, company, and package
+- 🏢 **Placement Partners** — Scrolling logo strip of top companies (Google, Amazon, TCS, etc.)
+- 📬 **Lead Capture Forms** — Free Demo booking popup and Career Counselling form
+- 💬 **WhatsApp Float Button** — Persistent WhatsApp and Call Now quick-action buttons
+- 📱 **Fully Responsive** — Mobile, tablet, and desktop ready using Bootstrap grid
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| **HTML5** | Semantic page structure and markup |
+| **CSS3** | Custom styling, animations, and visual design |
+| **Bootstrap 5** | Responsive grid system, components, and utilities |
+| **SVG Assets** | Course icons, company logos, and profile avatars |
+| **Vercel** | Deployment and hosting |
+
+> No JavaScript framework or build tools used — pure HTML, CSS & Bootstrap.
+
+---
+
+## 📄 Pages & Sections
+
+The website is a **single-page layout** with smooth anchor-based navigation:
+
+```
+/ (index.html)
+│
+├── Top Bar           → Phone, email, timings, branch count
+├── Navbar            → Logo + Nav links + Enroll Now button
+├── Promo Banner      → Scrolling offer strip
+├── Hero Section      → Headline + CTA buttons + Lead form
+├── Stats Bar         → 4M+ Learners | 250+ Courses | 25+ Branches | 100% Placement
+├── Courses Section   → Filterable course cards (All / Data & AI / Cloud / Full Stack / Testing / DevOps)
+├── Why FINITECH      → 8 USP feature cards
+├── Upcoming Batches  → Batch schedule with seat availability
+├── Testimonials      → Student reviews with photos and packages
+├── Placements        → Hiring company logo strip
+├── CTA Banner        → Final call-to-action section
+└── Footer            → Links, contact info, newsletter subscribe
+```
+
+---
+
+## 📚 Courses Offered
+
+| Course | Duration | Level | Enrolled |
+|---|---|---|---|
+| 🔥 AI Data Science & Machine Learning | 5 Months | Beginner–Advanced | 12,000+ |
+| 📈 AWS Cloud Computing | 6 Months | Beginner–Advanced | 10,000+ |
+| ✨ Full Stack Development (MERN) | 7 Months | Beginner–Advanced | 15,000+ |
+| 🔥 Python Programming | 6 Months | Beginner–Advanced | 11,000+ |
+| 📈 Software Testing & Selenium | 7 Months | Beginner–Advanced | 10,000+ |
+| ✨ Generative AI & LLMs | 7 Months | Beginner–Advanced | 12,000+ |
 
 ---
 
 ## 📁 Project Structure
 
-The project follows a simple and organized folder structure.
-
-FINITECH - EdTech
+```
+finitech-ed-tech/
 │
-├── index.html
-├── style.css
-├── README.md
+├── index.html                    # Main landing page
+├── style.css                     # Custom CSS styles
+├── favicon.ico                   # Site favicon
 │
-└── Media
-    ├── Company logo
-    ├── Profile
-    └── SVG
-
-This structure helps keep all assets organized and easy to maintain.
-
----
-
-## ⚙ Installation / How to Run
-
-To run this project locally on your system:
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/anshuman-sahu-dev/FINITECH-EdTech.git
+└── Media/
+    ├── SVG/                      # Course icons & FINITECH logo (SVG format)
+    │   ├── FINITECH LOGO.svg
+    │   ├── AI Data Science Machine Learning.svg
+    │   ├── AWS Cloud Computing.svg
+    │   ├── Full Stack Development.svg
+    │   ├── Python Programming.svg
+    │   ├── Software Testing & Selenium.svg
+    │   └── Generative Ai.svg
+    │
+    ├── Profile/                  # Student testimonial profile avatars (SVG)
+    │   ├── Subham Panigrahy.svg
+    │   ├── Anshuman Sahu.svg
+    │   └── Smrutirupa Sahu.svg
+    │
+    └── Company Logos/            # Hiring company logos (SVG)
+        ├── Google.svg
+        ├── amazon.svg
+        ├── Microsoft.svg
+        ├── Infosys.svg
+        ├── TCS.svg
+        ├── Wipro.svg
+        ├── accenture.svg
+        ├── HCL Tech.svg
+        ├── cognizant.svg
+        ├── IBM.svg
+        ├── ZOHO.svg
+        └── Flipkart.svg
 ```
 
-2. Open the project folder
+---
 
-3. Locate and open the **index.html** file in your web browser
+## 🚀 Getting Started
 
-The website will run instantly since it is a static front-end project.
+No build tools, no npm, no dependencies needed. Just clone and open.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/anshuman-sahu-dev/finitech-ed-tech.git
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd finitech-ed-tech
+```
+
+### 3. Open in Browser
+
+```bash
+# On macOS
+open index.html
+
+# On Windows
+start index.html
+
+# Or drag and drop index.html into any modern browser
+```
+
+> ⚡ Runs instantly with zero setup — it's a pure front-end project!
 
 ---
 
-## 🔮 Future Improvements
+## 🧠 Learning Outcomes
 
-Some enhancements planned for future versions include:
+Building this project helped practice and reinforce:
 
-* Adding **JavaScript for interactive functionality**
-* Creating a **student dashboard**
-* Adding **backend integration for course management**
-* Implementing **online enrollment forms**
-* Adding **dynamic course updates**
-
----
-
-## 👨‍💻 Author
-
-**Anshuman Sahu**
-
-GitHub:
-https://github.com/anshuman-sahu-dev
+- ✅ Designing multi-section landing pages with semantic HTML5
+- ✅ Bootstrap 5 grid system, cards, navbar, and utility classes
+- ✅ Custom CSS animations, hover effects, and transitions
+- ✅ Building responsive layouts for mobile, tablet, and desktop
+- ✅ Creating professional lead capture forms and CTA sections
+- ✅ Working with SVG assets for icons, logos, and profile images
+- ✅ Structuring a real-world ed-tech product page from scratch
+- ✅ Deploying a static site to Vercel
 
 ---
 
-⭐ If you like this project, consider giving it a star on GitHub!
+## 👨‍💻 Developer
+
+<div align="center">
+
+### ✨ Made with ❤️ by
+
+# 🧑‍💻 Anshuman Sahu
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=0D6EFD&center=true&vCenter=true&width=500&lines=Front-End+Developer;HTML+%7C+CSS+%7C+Bootstrap;Building+real-world+UIs+from+scratch;One+project+at+a+time+🚀)
+
+---
+
+📧 **Email:** toanshumansahu@gmail.com
+📞 **Phone:** +91 7854939308
+
+---
+
+[![GitHub](https://img.shields.io/badge/GitHub-anshuman--sahu--dev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anshuman-sahu-dev)
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://finitech-ed-tech.vercel.app/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](#)
+
+---
+
+![Profile Views](https://komarev.com/ghpvc/?username=anshuman-sahu-dev&color=0D6EFD&style=for-the-badge&label=PROFILE+VIEWS)
+
+</div>
