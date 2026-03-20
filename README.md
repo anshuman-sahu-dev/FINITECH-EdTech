@@ -111,7 +111,7 @@ finitech-ed-tech/
 ├── style.css                     # Custom CSS styles
 ├── favicon.ico                   # Site favicon
 │
-└── Media/
+└── assets/
     ├── SVG/                      # Course icons & FINITECH logo (SVG format)
     │   ├── FINITECH LOGO.svg
     │   ├── AI Data Science Machine Learning.svg
