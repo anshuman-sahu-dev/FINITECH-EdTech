@@ -2,7 +2,7 @@
 
 > *Launch Your IT Career with India's #1 Training Institute*
 
-![FINITECH Banner](Media/SVG/FINITECH%20LOGO.svg)
+![FINITECH Banner](assets/SVG/FINITECH%20LOGO.svg)
 
 ---
 
