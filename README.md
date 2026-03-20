@@ -23,9 +23,9 @@
 
 ## 📖 About the Project
 
-**FINITECH Institute** is a fully responsive Ed-Tech landing page built using **HTML, CSS, and Bootstrap**. It replicates a professional software training institute's website — complete with course listings, batch schedules, student testimonials, placement partners, and lead capture forms.
+**FINITECH Institute** is a fully responsive Ed-Tech landing page built using **HTML, CSS, and Bootstrap**. It replicates a professional software training institute's website complete with course listings, batch schedules, student testimonials, placement partners, and lead capture forms.
 
-The project is designed to simulate a real-world ed-tech product interface, focusing on clean UI, responsive layouts, and user-friendly navigation — all without any JavaScript framework.
+The project is designed to simulate a real-world ed-tech product interface, focusing on clean UI, responsive layouts, and user-friendly navigation all without any JavaScript framework.
 
 ---
 
@@ -62,7 +62,7 @@ The project is designed to simulate a real-world ed-tech product interface, focu
 | **SVG Assets** | Course icons, company logos, and profile avatars |
 | **Vercel** | Deployment and hosting |
 
-> No JavaScript framework or build tools used — pure HTML, CSS & Bootstrap.
+> No JavaScript framework or build tools used pure HTML, CSS & Bootstrap.
 
 ---
 
@@ -203,7 +203,7 @@ Building this project helped practice and reinforce:
 ---
 
 📧 **Email:** toanshumansahu@gmail.com
-📞 **Phone:** +91 7854939308
+📞 **Phone:** +91 78549 39308
 
 ---
 
