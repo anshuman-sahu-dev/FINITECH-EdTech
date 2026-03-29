@@ -202,6 +202,9 @@ For any queries, feedback, or collaboration:
 
 ---
 
+## 📜 License
+
+© 2026 **WanderFramez\_**. All rights reserved.
 
 ## 👨‍💻 Developer
 
